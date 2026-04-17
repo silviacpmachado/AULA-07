@@ -10,6 +10,9 @@ print(lst_meses[:4]) # é o ultimo - 1. porque pega o final. vai ate abril neste
 print(lst_meses[2:]) # Imprime a partir do indice 2 até o final.
 print(lst_meses[2:4]) # Imprime a partir do 2 até o 4-1.
 
-
 # print(lst_vazia_meses)
 print(lst_meses)
+
+# For em lista
+for m in lst_meses: # para cada mês na lista de meses, print os meses.
+    print(m)
